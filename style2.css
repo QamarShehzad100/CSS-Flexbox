@@ -1,0 +1,43 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: #eee;
+}
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+nav li {
+  /* flex: 1 1 0; */
+}
+
+nav a:hover {
+  background-color: #666;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+@media screen and(min-width:768px) {
+}
